@@ -22,13 +22,13 @@ This project is a backend API for managing the inventory of a comic book e-comme
    
    ```env
    DATABASE_URL=your_postgresql_database_url_here
-   PORT=5000
+   PORT=3000
    ```
 
    Replace `your_postgresql_database_url_here` with your actual PostgreSQL database connection URL.
 
 ## Running the Server
-  **Start the Server in Production Mode**
+  **Start the Server **
    
    ```bash
    npm start
@@ -50,6 +50,7 @@ This project is a backend API for managing the inventory of a comic book e-comme
 - **pg**: PostgreSQL client for Node.js
 - **pg-hstore**: Key-value store for PostgreSQL
 - **dotenv**: Loads environment variables from a `.env` file
+- **zod** Input validation library 
 
 
 
